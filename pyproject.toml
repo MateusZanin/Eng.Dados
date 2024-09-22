@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyspark-delta-marcos"
+version = "0.1.0"
+description = ""
+authors = ["jlsilva01 <jlsilva01@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "3.4.2"
+delta-spark = "2.4.0"
+jupyterlab = "^4.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
