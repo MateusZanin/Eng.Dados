@@ -1,0 +1,221 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "f79afd87-f41b-4a86-937b-9aafbabb3c86",
+  "location" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/carros",
+  "last-updated-ms" : 1728058824407,
+  "last-column-id" : 10,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "cd_cliente",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "marca",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "modelo",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "ano",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 6,
+      "name" : "preco",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 7,
+      "name" : "quilometragem",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 8,
+      "name" : "cor",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "tipo_combustivel",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "cambio",
+      "required" : false,
+      "type" : "string"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "cd_cliente",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "marca",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "modelo",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "ano",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 6,
+      "name" : "preco",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 7,
+      "name" : "quilometragem",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 8,
+      "name" : "cor",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "tipo_combustivel",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "cambio",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "ubuntu"
+  },
+  "current-snapshot-id" : 6710760119266521960,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 6710760119266521960,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "snapshot-id" : 8542072603358480973,
+    "timestamp-ms" : 1728058803505,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1728054515228",
+      "added-data-files" : "4",
+      "added-records" : "50",
+      "added-files-size" : "13925",
+      "changed-partition-count" : "1",
+      "total-records" : "50",
+      "total-files-size" : "13925",
+      "total-data-files" : "4",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/carros/metadata/snap-8542072603358480973-1-bb07c81c-c1d1-4e68-bdc2-a0c105f8a477.avro",
+    "schema-id" : 0
+  }, {
+    "snapshot-id" : 8251628944202127269,
+    "parent-snapshot-id" : 8542072603358480973,
+    "timestamp-ms" : 1728058813507,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1728054515228",
+      "added-data-files" : "2",
+      "added-records" : "2",
+      "added-files-size" : "5767",
+      "changed-partition-count" : "1",
+      "total-records" : "52",
+      "total-files-size" : "19692",
+      "total-data-files" : "6",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/carros/metadata/snap-8251628944202127269-1-a935fe3b-6ccc-4360-a8ed-8f26c9a4bff1.avro",
+    "schema-id" : 0
+  }, {
+    "snapshot-id" : 6710760119266521960,
+    "parent-snapshot-id" : 8251628944202127269,
+    "timestamp-ms" : 1728058824407,
+    "summary" : {
+      "operation" : "delete",
+      "spark.app.id" : "local-1728054515228",
+      "deleted-data-files" : "1",
+      "deleted-records" : "1",
+      "removed-files-size" : "2887",
+      "changed-partition-count" : "1",
+      "total-records" : "51",
+      "total-files-size" : "16805",
+      "total-data-files" : "5",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/carros/metadata/snap-6710760119266521960-1-e5a25ba4-8d26-47f3-a2d2-c6dea122da6d.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1728058803505,
+    "snapshot-id" : 8542072603358480973
+  }, {
+    "timestamp-ms" : 1728058813507,
+    "snapshot-id" : 8251628944202127269
+  }, {
+    "timestamp-ms" : 1728058824407,
+    "snapshot-id" : 6710760119266521960
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1728058801250,
+    "metadata-file" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/carros/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1728058803505,
+    "metadata-file" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/carros/metadata/v2.metadata.json"
+  }, {
+    "timestamp-ms" : 1728058813507,
+    "metadata-file" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/carros/metadata/v3.metadata.json"
+  } ]
+}

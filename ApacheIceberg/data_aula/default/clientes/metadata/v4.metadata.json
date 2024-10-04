@@ -1,0 +1,181 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "31fe8562-eafc-4292-a645-1e3e90cc1d1e",
+  "location" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/clientes",
+  "last-updated-ms" : 1728058841803,
+  "last-column-id" : 6,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "cd_cliente",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "nome",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "idade",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "cidade",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "email",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "data_nascimento",
+      "required" : false,
+      "type" : "date"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "cd_cliente",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "nome",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "idade",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "cidade",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "email",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "data_nascimento",
+      "required" : false,
+      "type" : "date"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "ubuntu"
+  },
+  "current-snapshot-id" : 7644887954327145419,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 7644887954327145419,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "snapshot-id" : 5781077749985522508,
+    "timestamp-ms" : 1728058802687,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1728054515228",
+      "added-data-files" : "4",
+      "added-records" : "20",
+      "added-files-size" : "8336",
+      "changed-partition-count" : "1",
+      "total-records" : "20",
+      "total-files-size" : "8336",
+      "total-data-files" : "4",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/clientes/metadata/snap-5781077749985522508-1-550a59c5-f9a5-4f83-bb71-00a81eca9224.avro",
+    "schema-id" : 0
+  }, {
+    "snapshot-id" : 1112917108056155224,
+    "parent-snapshot-id" : 5781077749985522508,
+    "timestamp-ms" : 1728058831828,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1728054515228",
+      "added-data-files" : "2",
+      "added-records" : "2",
+      "added-files-size" : "3876",
+      "changed-partition-count" : "1",
+      "total-records" : "22",
+      "total-files-size" : "12212",
+      "total-data-files" : "6",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/clientes/metadata/snap-1112917108056155224-1-6166ccd2-4b46-46d2-a48e-902aa5994a4c.avro",
+    "schema-id" : 0
+  }, {
+    "snapshot-id" : 7644887954327145419,
+    "parent-snapshot-id" : 1112917108056155224,
+    "timestamp-ms" : 1728058841803,
+    "summary" : {
+      "operation" : "delete",
+      "spark.app.id" : "local-1728054515228",
+      "deleted-data-files" : "1",
+      "deleted-records" : "1",
+      "removed-files-size" : "1953",
+      "changed-partition-count" : "1",
+      "total-records" : "21",
+      "total-files-size" : "10259",
+      "total-data-files" : "5",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/clientes/metadata/snap-7644887954327145419-1-dbfb52e3-8827-47ee-a5c0-d8b6b47fe25b.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1728058802687,
+    "snapshot-id" : 5781077749985522508
+  }, {
+    "timestamp-ms" : 1728058831828,
+    "snapshot-id" : 1112917108056155224
+  }, {
+    "timestamp-ms" : 1728058841803,
+    "snapshot-id" : 7644887954327145419
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1728058801071,
+    "metadata-file" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/clientes/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1728058802687,
+    "metadata-file" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/clientes/metadata/v2.metadata.json"
+  }, {
+    "timestamp-ms" : 1728058831828,
+    "metadata-file" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/clientes/metadata/v3.metadata.json"
+  } ]
+}

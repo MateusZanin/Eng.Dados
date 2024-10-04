@@ -1,0 +1,139 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "f79afd87-f41b-4a86-937b-9aafbabb3c86",
+  "location" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/carros",
+  "last-updated-ms" : 1728058801250,
+  "last-column-id" : 10,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "cd_cliente",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "marca",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "modelo",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "ano",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 6,
+      "name" : "preco",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 7,
+      "name" : "quilometragem",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 8,
+      "name" : "cor",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "tipo_combustivel",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "cambio",
+      "required" : false,
+      "type" : "string"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "cd_cliente",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "marca",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "modelo",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "ano",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 6,
+      "name" : "preco",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 7,
+      "name" : "quilometragem",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 8,
+      "name" : "cor",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "tipo_combustivel",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "cambio",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "ubuntu"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}

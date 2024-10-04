@@ -1,0 +1,99 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "31fe8562-eafc-4292-a645-1e3e90cc1d1e",
+  "location" : "/home/ubuntu/Desktop/PythonIceberg/data_aula/default/clientes",
+  "last-updated-ms" : 1728058801071,
+  "last-column-id" : 6,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "cd_cliente",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "nome",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "idade",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "cidade",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "email",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "data_nascimento",
+      "required" : false,
+      "type" : "date"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "cd_cliente",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "nome",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "idade",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "cidade",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "email",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "data_nascimento",
+      "required" : false,
+      "type" : "date"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "ubuntu"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}
